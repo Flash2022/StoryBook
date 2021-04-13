@@ -40,12 +40,9 @@ app.use(
 )
 
 //Logging
-if (process.env.NODE_ENV === 'development') {
-  app.use(morgan('dev'))
-}
-if (process.env.NODE_ENV === 'production') {
+
   app.use(morgan('start'))
-}
+
 
 //Handlebars helpers
 const { formatDate, stripTags, truncate, editIcon, select } = require('./helpers/hbs')
