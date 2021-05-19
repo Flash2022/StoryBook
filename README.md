@@ -15,7 +15,7 @@ This is a full application build of the StoryBooks app which uses Node.js, Expre
 - [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) - NoSQL cloud database
 - [Google Cloud Console](https://console.cloud.google.com/apis/credentials/oauthclient?previousPage=%2Fapis%2Fcredentials%3Fproject%3Dconcrete-sol-309418&project=concrete-sol-309418) - Google authentication
 - [Passport](http://www.passportjs.org/packages/passport-google-oauth20/) - Using Googlo Auth2O Strategy
-- [Heroku](https://www.heroku.com) - Deloyment
+- [Heroku](https://www.heroku.com) - Deployment
 
 ## Key features:
 - Authentication with Passport using Google Auth2O
